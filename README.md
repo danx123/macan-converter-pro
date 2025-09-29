@@ -26,20 +26,11 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 ## 📸 Screenshot
 <img width="654" height="667" alt="Screenshot 2025-08-27 210353" src="https://github.com/user-attachments/assets/8a35bd2c-21a4-4a89-acf4-30020e377f2a" />
-<img width="654" height="668" alt="Screenshot 2025-08-27 210408" src="https://github.com/user-attachments/assets/486b9b24-7363-4a8c-9acc-413dc2aec840" />
-<img width="653" height="666" alt="Screenshot 2025-08-27 210425" src="https://github.com/user-attachments/assets/f6c45137-e70b-479d-bea5-aa65a7fe79ca" />
+
 
 ---
-## 📜 Changelog v2.5.0
-- Added conversion functions to the file converter tab, such as:
-- Convert PDF files to .txt, .docx, and .xlsx
-- Convert .docx to PDF
-- Convert from Fambar to PDF
-
-- Added a checkbox function: Shut down the PC after conversion is complete (in the video converter tab)
-- Added a new tab called Video-Audio Converter (placed before the About tab)
-- Added a function to convert video files to audio (complete) (in the Video-Audio Converter tab)
-
+## 📜 Changelog v2.7.0
+- Update Engine (PDF + ffmpeg)
 ---
 
 ## ⚙️ Installation
