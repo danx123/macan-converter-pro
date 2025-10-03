@@ -3,7 +3,7 @@
 Macan Converter Pro is a multi-conversion application for files, images, audio, and video.
 Fast, modern, and easy to use.
 
-Macan Converter Pro is a versatile PyQt6-based converter application that supports a wide range of file formats:
+Macan Converter Pro is a versatile PySide6-based converter application that supports a wide range of file formats:
 - File Converter: PDF → Image (PNG/JPG), PNG → ICO with a choice of resolutions.
 
 - Image Converter: Convert images between formats (JPEG, PNG, WEBP, BMP, GIF), with resolution and quality settings.
@@ -16,7 +16,7 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 ---
 
 ## ✨ Key Features
-- Modern interface based on PyQt6.
+- Modern interface based on PySide6.
 - Fast conversion with a real-time progress bar.
 - Multi-format conversion support (file, image, video, audio).
 - Batch mode for converting multiple files at once.
@@ -29,17 +29,14 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 
 ---
-## 📜 Changelog v2.7.0
-- Update Engine (PDF + ffmpeg)
+## 📜 Changelog v2.7.1
+- Update Framework
 ---
 
 ## ⚙️ Installation
 1. Ensure Python 3.10+ is installed.
 2. Install dependencies:
 
-bash
-
-pip install PyQt6 PyMuPDF Pillow
 
 📦 Important Note
 The source code shared in this repository is a framework/base project that serves as the foundation for the application.
