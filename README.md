@@ -29,7 +29,7 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 
 ---
-## 📜 Changelog v2.7.1
+## 📜 Changelog v2.7.2
 - Update Framework
 ---
 
