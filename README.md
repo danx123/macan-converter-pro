@@ -29,8 +29,8 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 
 ---
-## 📜 Changelog v2.7.2
-- Update Framework
+## 📜 Changelog v2.7.3
+- Fixed checkbox stylesheet
 ---
 
 ## ⚙️ Installation
