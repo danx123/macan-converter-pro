@@ -25,12 +25,14 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 ---
 
 ## 📸 Screenshot
-<img width="654" height="667" alt="Screenshot 2025-08-27 210353" src="https://github.com/user-attachments/assets/8a35bd2c-21a4-4a89-acf4-30020e377f2a" />
-
+<img width="801" height="634" alt="Screenshot 2025-10-16 235305" src="https://github.com/user-attachments/assets/c0d6f1f1-d574-48e5-85c9-0f9f4b6c4d80" />
+<img width="1080" height="1603" alt="macan_converter_pro_v3" src="https://github.com/user-attachments/assets/fdd6303d-c53c-4b91-aa8e-2f22eff7425d" />
 
 ---
-## 📜 Changelog v2.7.3
-- Fixed checkbox stylesheet
+## 📜 Changelog v3.0.0
+- ReDesign UI
+- Update Dependency
+- Update Library
 ---
 
 ## ⚙️ Installation
