@@ -25,14 +25,14 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 ---
 
 ## 📸 Screenshot
-<img width="801" height="634" alt="Screenshot 2025-10-16 235305" src="https://github.com/user-attachments/assets/c0d6f1f1-d574-48e5-85c9-0f9f4b6c4d80" />
-<img width="1080" height="1603" alt="macan_converter_pro_v3" src="https://github.com/user-attachments/assets/fdd6303d-c53c-4b91-aa8e-2f22eff7425d" />
+<img width="803" height="633" alt="Screenshot 2025-10-25 074504" src="https://github.com/user-attachments/assets/1e17d866-9d91-452d-beaa-3de8acb0e228" />
+
 
 ---
-## 📜 Changelog v3.0.0
-- ReDesign UI
-- Update Dependency
-- Update Library
+## 📜 Changelog v3.2.0
+- Added QSetting to save
+- Fix progress bar
+- Change subprocess to QProcess
 ---
 
 ## ⚙️ Installation
