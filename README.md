@@ -29,10 +29,8 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 
 ---
-## 📜 Changelog v3.2.0
-- Added QSetting to save
-- Fix progress bar
-- Change subprocess to QProcess
+## 📜 Changelog v3.3.0
+- Fixed Image Convert
 ---
 
 ## ⚙️ Installation
