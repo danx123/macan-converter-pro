@@ -25,12 +25,32 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 ---
 
 ## 📸 Screenshot
-<img width="803" height="633" alt="Screenshot 2025-10-25 074504" src="https://github.com/user-attachments/assets/1e17d866-9d91-452d-beaa-3de8acb0e228" />
+<img width="830" height="667" alt="Screenshot 2025-11-09 170847" src="https://github.com/user-attachments/assets/60e2f3c0-e14c-4b2f-97d4-4b9591274b7b" />
+
 
 
 ---
-## 📜 Changelog v3.3.0
-- Fixed Image Convert
+## 📜 Changelog v4.0.0
+This release introduces a major user experience overhaul, focusing on a more intuitive and modern file-handling workflow.
+
+🚀 Added
+Drag-and-Drop File Input: Implemented a new interactive FileDropArea widget for the Video, Audio, Image, and Extract Audio tabs.
+Asynchronous Thumbnail Generation: Files dropped into the new area will now display thumbnails. A ThumbnailWorker running on a QThreadPool generates these in the background to prevent UI freezing.
+Uses opencv-python for video frame extraction.
+Uses QPixmap for image previews.
+Displays default file-type icons for audio.
+New File Management Buttons: Added "Add Files" and "Clear List" buttons to complement the new drag-and-drop functionality.
+🔄 Changed
+UI Overhaul: Fundamentally redesigned the layout for the Video, Audio, Image, and Extract Audio tabs to accommodate the new file list.
+Unified Workflow: Refactored the conversion logic for media tabs to be "batch-by-default." All files in the list are processed as a batch, whether there is one file or one hundred.
+❌ Removed
+"Batch Mode" Checkbox: This option has been removed as the new drag-and-drop interface is inherently a batch-processing system, simplifying the UI.
+Static Input Fields: Removed the QLineEdit fields for single-file inputs on media tabs.
+🛠️ Fixed
+Worker Thread Memory Leak: Corrected a potential memory leak by ensuring all QObject workers (e.g., VideoConversionWorker) are properly deleted using deleteLater() after their thread has finished.
+📦 Dependencies
+Added opencv-python as a new dependency for video thumbnail generation.
+Added numpy as a dependency for opencv-python.
 ---
 
 ## ⚙️ Installation
