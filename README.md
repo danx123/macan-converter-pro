@@ -25,36 +25,17 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 ---
 
 ## 📸 Screenshot
-<img width="897" height="732" alt="Screenshot 2025-11-17 081839" src="https://github.com/user-attachments/assets/2306dc07-3777-459e-80ed-95e5128254cd" />
+<img width="901" height="722" alt="image" src="https://github.com/user-attachments/assets/727757bd-cfb1-4d12-8a45-6dac428274e7" />
+
 
 
 
 
 ---
-## 📜 Changelog v5.0.0
-- ✨ New Features
-Advanced Video Conversion: A new "Advanced Options" panel has been added, giving users granular control over:
-Video Bitrate & FPS
-Video Encoder (e.g., libx264, libx265, vp9)
-Audio Encoder (e.g., aac, libmp3lame, ac3)
-Audio Sample Rate, Bitrate, and Channels (Mono/Stereo)
-Video Preset System:
-Users can now save their custom advanced configurations as a named preset.
-Saved presets can be easily loaded from a dropdown menu for future use.
-The system automatically detects manual changes and switches to a "-- Custom --" state.
-Dynamic Encoders: The Video Encoder list now intelligently updates based on the selected output container (e.g., MP4 and MKV will show different encoder options).
+## 📜 Changelog v5.2.0
+- Added GPU Rendering
+- Update Framework
 
-- 🖥️ UI/UX Improvements
-Video Tab Redesign: The Video options panel has been completely rebuilt using a QSplitter.
-Collapsible Panel: The "Advanced Options" checkbox now toggles the visibility of the new panel in a clean, expandable splitter layout, replacing the old layout.
-Window & Layout:
-The main window's default and minimum size has been increased to better accommodate the new options.
-Minor stylesheet padding was adjusted for a tighter UI.
-
-- ⚙️ Backend & Core
-VideoConversionWorker: The worker class has been fundamentally upgraded to accept and process all new advanced parameters (is_advanced, v_bitrate, fps, v_encoder, etc.) and build the correct FFMPEG command.
-Settings Persistence: The _save_settings and _load_settings functions now store all advanced video settings and saved user presets in QSettings, ensuring they persist between sessions.
-Localization: All new UI elements and dialog boxes (e.g., "Save Preset") have been added to the multi-language dictionary for both Indonesian and English.
 ---
 
 ## ⚙️ Installation
