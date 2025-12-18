@@ -32,8 +32,8 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 
 ---
-## 📜 Changelog v5.5.0
-- Update Engine (ffmpeg)
+## 📜 Changelog v5.7.0
+- added auto-update feature
 
 ---
 
