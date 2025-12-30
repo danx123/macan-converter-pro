@@ -25,15 +25,12 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 ---
 
 ## 📸 Screenshot
-<img width="901" height="722" alt="image" src="https://github.com/user-attachments/assets/727757bd-cfb1-4d12-8a45-6dac428274e7" />
-
-
-
-
-
+<img width="905" height="733" alt="Screenshot 2025-12-30 181722" src="https://github.com/user-attachments/assets/e6ccca0e-2ba1-4b44-a45e-7d735901f25e" />
 ---
-## 📜 Changelog v5.7.0
-- added auto-update feature
+## 📜 Changelog v6.0.0
+- Added Mutagen to extract cover art (audio converter)
+- Update engine (ffmpeg) latest version
+- Update library
 
 ---
 
