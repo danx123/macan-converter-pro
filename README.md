@@ -26,12 +26,22 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 ## 📸 Screenshot
 <img width="905" height="733" alt="Screenshot 2025-12-30 181722" src="https://github.com/user-attachments/assets/e6ccca0e-2ba1-4b44-a45e-7d735901f25e" />
----
-## 📜 Changelog v6.0.0
-- Added Mutagen to extract cover art (audio converter)
-- Update engine (ffmpeg) latest version
-- Update library
+<img width="902" height="730" alt="Cuplikan layar 2026-01-12 210740" src="https://github.com/user-attachments/assets/53aee912-a4cf-4bb9-927d-715e41484dcb" />
 
+---
+## 📜 Changelog v6.2.0
+
+## 🚀 New Features
+- Custom Bitrate Support: Users can now manually define video bitrates (e.g., 5000k, 10M) in Advanced Mode. The system automatically validates and formats the input to ensure compatibility with the FFmpeg backend.
+- CABAC Entropy Coding: Added support for CABAC (Context-adaptive binary arithmetic coding) parameters. This improves compression efficiency and video quality for H.264/AVC streams compared to CAVLC.
+- Custom Parameter Injection: Introduced a dedicated "Custom Parameters" field. Advanced users can now pass direct CLI arguments to the FFmpeg process, allowing for specialized tuning not covered by the standard UI.
+  
+## 🛠️ Improvements & Fixes
+- Optimized GPU Rendering (NVENC): * Refined the hardware acceleration pipeline for NVIDIA GPUs.
+  - Fixed a critical bug where h264_nvenc would fail if the bitrate was set to "Auto" while in Advanced Mode.
+  - Improved rate control management (-rc vbr) to ensure stable rendering when using custom bitrates on GPU.
+- Parameter Validation: Implemented a sanitization layer to prevent conversion crashes caused by empty or malformed bitrate strings.
+- Ref Frame Logic: Enhanced the handling of reference frames (-refs) to better align with hardware encoder limitations.
 ---
 
 ## ⚙️ Installation
