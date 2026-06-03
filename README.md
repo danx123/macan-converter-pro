@@ -23,10 +23,9 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 - Quality and resolution optimization according to user needs.
 
 ---
+<img width="941" height="1672" alt="macan converter pro v8 5 0" src="https://github.com/user-attachments/assets/9171e4f5-287d-4d40-81a8-ae70568ef234" />
 
-## 📸 Screenshot
-<img width="905" height="733" alt="Screenshot 2025-12-30 181722" src="https://github.com/user-attachments/assets/e6ccca0e-2ba1-4b44-a45e-7d735901f25e" />
-<img width="902" height="730" alt="Cuplikan layar 2026-01-12 210740" src="https://github.com/user-attachments/assets/53aee912-a4cf-4bb9-927d-715e41484dcb" />
+
 
 ---
 
