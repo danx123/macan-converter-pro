@@ -15,11 +15,6 @@ This application uses PyMuPDF, Pillow, and FFmpeg, with batch mode support to sp
 
 ---
 
-<img width="1024" height="1536" alt="macan converter pro v8 6 0" src="https://github.com/user-attachments/assets/5baae30f-da54-4cd9-9bd8-e505ac46542b" />
-
-
----
-
 ## ✨ Key Features
 - Modern interface based on PySide6.
 - Fast conversion with a real-time progress bar.
