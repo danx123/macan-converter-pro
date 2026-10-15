@@ -1,5 +1,10 @@
 # ♻️ Macan Converter Pro
 
+![Python](https://img.shields.io/badge/python-3.10%2B-blue?style=flat-square)
+![Rust](https://img.shields.io/badge/native%20engine-Rust-orange?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Total Downloads](https://img.shields.io/github/downloads/danx123/macan-converter-pro/total?style=flat-square&color=E8FF00&label=downloads)
+
 Macan Converter Pro is a multi-conversion application for files, images, audio, and video.
 Fast, modern, and easy to use.
 
